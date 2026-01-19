@@ -76,6 +76,8 @@
   font-size: clamp(4rem, 5vw, 6rem);
   font-weight: 900;
   line-height: 1.15;
+  word-break: keep-all;
+  margin-bottom: 1rem;
 }
 
 .main-visual-text h1 em {
@@ -95,6 +97,7 @@
 
 .main-visual-text h2 {
   font-size: clamp(2rem, 2vw, 3rem);
+
 }
 
 .main-visual-text p {
@@ -462,7 +465,7 @@ section h2 {
   }
 
   .main-visual-text h2 {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
   }
 
   section {
