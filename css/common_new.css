@@ -220,3 +220,18 @@
 .social-icon.kakao {
     background-image: url(../images/icon_kakao.png);
 }
+
+@media (max-width:767px) {
+    .max-h-basic {
+        height: 3.5rem;
+    }
+
+    .nav-menu,
+    .nav-right {
+        display: none;
+    }
+
+    .hamburg {
+        display: inline-block;
+    }
+}

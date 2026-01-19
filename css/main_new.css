@@ -421,3 +421,14 @@ body {
     font-size: 2rem;
     line-height: 1.6;
 }
+
+.playlist {
+    position: absolute;
+    right: 10%;
+    top: 91vh;
+    width: 10rem;
+    height: 10rem;
+    z-index: 1000;
+}
+
+@media (max-width:767px) {}

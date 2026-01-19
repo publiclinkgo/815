@@ -234,7 +234,11 @@
 
 @media (max-width:768px) {
 	.nav-wrap {
-		padding: 1.5rem 1.5rem;
+		padding: 1rem 1rem;
+	}
+
+	.black .nav-wrap .nav-container {
+		padding: 0;
 	}
 
 	.nav-container.open {
@@ -246,6 +250,10 @@
 	.nav-menu,
 	.nav-right {
 		display: none;
+	}
+
+	.top-logo {
+		width: 8rem;
 	}
 
 	.open .nav-menu {
@@ -268,13 +276,15 @@
 
 	.open .nav-right {
 		display: flex;
+		justify-content: flex-start;
+		margin-left: 0.4rem;
 	}
 
 	.hamburg {
 		display: block;
 		position: absolute;
-		top: 2rem;
-		right: 2rem;
+		top: 1.5rem;
+		right: 1.5rem;
 	}
 
 	.icon-hamburg {
@@ -313,5 +323,40 @@
 	.open .icon-hamburg span:nth-child(3) {
 		margin: -1px;
 		transform: rotate(-45deg);
+	}
+
+	.footer {
+		margin-top: 5rem;
+		padding-top: 1rem;
+	}
+
+	.footer-wrap {
+		flex-direction: column-reverse;
+		align-items: center;
+	}
+
+	.footer-left {
+		display: flex;
+		flex-direction: column-reverse;
+	}
+
+	.foot-logo {
+		width: 8rem;
+		position: relative;
+		left: 50%;
+		transform: translateX(-50%);
+	}
+
+	.footer-social {
+		margin: 1rem 0;
+	}
+
+	.social-icon {
+		width: 2rem;
+		height: 2rem;
+	}
+
+	.footer-text {
+		margin-bottom: 1rem;
 	}
 }
