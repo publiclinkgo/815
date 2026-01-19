@@ -226,6 +226,10 @@ section h2 {
   margin-bottom: 0.8rem;
 }
 
+.box-1 h3 span {
+  font-size: clamp(1.2rem, 1.5vw, 1.5rem);
+}
+
 .box-tag {
   width: 80%;
 }
