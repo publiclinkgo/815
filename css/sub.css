@@ -1,3 +1,176 @@
 :root {
     --main-color: #fff;
 }
+
+.content-depth {
+    max-width: 70rem;
+    margin: 7rem auto 1rem;
+    text-align: right;
+}
+
+.content-depth span {
+    font-size: 0.9rem;
+}
+
+span.depth-home {
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+span.depth-mark {
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+
+.article-section {
+    max-width: 70rem;
+    margin: 0 auto 5rem;
+    padding: 0 1rem;
+}
+
+.article-section.first {
+    margin-bottom: 0;
+}
+
+.article-section h2 {
+    font-family: sandoll-andante;
+    font-weight: normal;
+    font-size: clamp(3rem, 5vw, 4rem);
+    line-height: 1.1;
+}
+
+.article-section h3 {
+    font-weight: 300;
+    font-size: 2.5rem;
+    margin-bottom: 2.5rem;
+}
+
+.article-section h3 b {
+    font-weight: 600;
+}
+
+.article-section span {
+    display: block;
+    text-align: right;
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+
+.article-section h4 {
+    width: 20vw;
+    font-size: 2rem;
+    line-height: 1.3;
+    margin-bottom: 0.5rem
+}
+
+.article-container {
+    border-top: 0.3rem solid #000;
+}
+
+.article-text p {
+    font-size: 1.25rem;
+    line-height: 1.78;
+    margin-bottom: 1.2rem;
+}
+
+.article-container.center .article-image {
+    margin-bottom: 2rem;
+}
+
+.article-container.center .article-image figcaption {
+    text-align: right;
+}
+
+.article-container.center .article-text {
+    width: 60%;
+    margin-left: 40%;
+}
+
+.article-container.dual {
+    padding-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.article-container.dual .article-image {
+    flex: 0 0 25%;
+    margin-top: 0.5rem;
+}
+
+.article-container.dual .article-text {
+    flex: 0 0 60%;
+}
+
+.article-container.left {
+    padding-top: 2rem;
+}
+
+.article-container.left .article-image {
+    width: 55%;
+    float: left;
+}
+
+.article-container.left .article-text {
+    width: 60%;
+    float: right;
+}
+
+.article-container.left::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.article-container.right {
+    padding-top: 2rem;
+}
+
+.article-container.right .article-text {
+    width: 60%;
+    margin-left: 40%;
+}
+
+.table-wrapper {
+    padding: 1.8rem 1.5rem;
+    background-color: #f8f8f8;
+    /* 이미지처럼 연한 회색 배경 */
+}
+
+.history-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #ffffff;
+}
+
+/* 상단과 하단 가장자리 굵은 선 */
+.history-table {
+    border-top: 0.1rem solid #000;
+    border-bottom: 0.05rem solid #000;
+}
+
+.history-table th {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 0.1rem solid #000;
+}
+
+.history-table td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 0.05rem solid #000;
+}
+
+.history-table th {
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+.history-table td {
+    font-size: 0.95em;
+    color: #333;
+}
+
+/* 마지막 행 선 제거 (표 바닥 선과 겹치지 않게) */
+.history-table tbody tr:last-child td {
+    border-bottom: none;
+}
