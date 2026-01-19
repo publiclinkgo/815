@@ -73,6 +73,13 @@ span.depth-mark {
     margin-bottom: 1.2rem;
 }
 
+.article-text p.under {
+    text-decoration: underline;
+    text-decoration-thickness: 0.05rem;
+    text-underline-offset: 0.3rem;
+
+}
+
 .article-container.center .article-image {
     margin-bottom: 2rem;
 }
@@ -108,6 +115,11 @@ span.depth-mark {
 .article-container.left .article-image {
     width: 55%;
     float: left;
+    margin-bottom: 2rem;
+}
+
+.article-container.left .article-image figure+figure {
+    margin-top: 0.5rem;
 }
 
 .article-container.left .article-text {
@@ -125,9 +137,28 @@ span.depth-mark {
     padding-top: 2rem;
 }
 
+.article-container.right .article-image {
+    margin-bottom: 2rem;
+}
+
 .article-container.right .article-text {
     width: 60%;
     margin-left: 40%;
+}
+
+.article-qr {
+    background-color: #F8F8F8;
+    padding: 2rem 2rem 1rem;
+}
+
+.article-qr img {
+    width: 30%;
+    display: block;
+}
+
+.article-qr p {
+    margin: 0.5rem 0 0;
+    font-size: 1rem;
 }
 
 .table-wrapper {

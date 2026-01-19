@@ -1,0 +1,23 @@
+:root {
+    --main-color: #fff;
+}
+
+.content-depth {
+    max-width: 70rem;
+    margin: 7rem auto 1rem;
+    text-align: right;
+}
+
+.content-depth span {
+    font-size: 0.9rem;
+}
+
+span.depth-home {
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+span.depth-mark {
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
